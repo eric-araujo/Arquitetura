@@ -1,6 +1,8 @@
 <?php
 
-namespace Arquitetura;
+namespace Arquitetura\Dominio\Indicacao;
+
+use Arquitetura\Dominio\Aluno\Aluno;
 
 class Indicacao
 {

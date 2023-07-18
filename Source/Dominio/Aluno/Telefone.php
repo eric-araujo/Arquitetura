@@ -1,6 +1,6 @@
 <?php
 
-namespace Arquitetura;
+namespace Arquitetura\Dominio\Aluno;
 
 class Telefone implements \Stringable
 {
@@ -15,7 +15,7 @@ class Telefone implements \Stringable
 
     private function setDDD(string $ddd): void
     {
-        if(preg_match('/\d{8,9}/', $ddd) !== 1) {
+        if (preg_match('/\d{8,9}/', $ddd) !== 1) {
             throw new \InvalidArgumentException('DDD de telefone inválido');
         }
 
@@ -24,7 +24,7 @@ class Telefone implements \Stringable
 
     private function setNumero(string $numero): void
     {
-        if(preg_match('/\d{8,9}/', $numero) !== 1) {
+        if (preg_match('/\d{8,9}/', $numero) !== 1) {
             throw new \InvalidArgumentException('Número de telefone inválido');
         }
 

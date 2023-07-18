@@ -1,6 +1,6 @@
 <?php
 
-namespace Arquitetura;
+namespace Arquitetura\Dominio;
 
 class Cpf implements \Stringable
 {
@@ -19,7 +19,7 @@ class Cpf implements \Stringable
             ]
         ];
 
-        if(filter_var($cpf, FILTER_VALIDATE_REGEXP, $opcoes) === false) {
+        if (filter_var($cpf, FILTER_VALIDATE_REGEXP, $opcoes) === false) {
             throw new \InvalidArgumentException('CPF no formato inválido');
         }
 

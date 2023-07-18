@@ -1,6 +1,9 @@
 <?php
 
-namespace Arquitetura;
+namespace Arquitetura\Dominio\Aluno;
+
+use Arquitetura\Dominio\Cpf;
+use Arquitetura\Dominio\Email;
 
 class Aluno
 {

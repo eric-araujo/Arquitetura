@@ -1,6 +1,6 @@
 <?php
 
-namespace Arquitetura;
+namespace Arquitetura\Dominio;
 
 class Email implements \Stringable
 {
@@ -19,5 +19,4 @@ class Email implements \Stringable
     {
         return $this->endereco;
     }
-
 }
