@@ -1,6 +1,6 @@
 <?php
 
-namespace Arquitetura\Dominio\Aluno;
+namespace Arquitetura\Dominio;
 
 class Telefone implements \Stringable
 {

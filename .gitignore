@@ -1,2 +1,4 @@
 /vendor/
 testes-executados.txt
+.vscode
+.phpunit.cache

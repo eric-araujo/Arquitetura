@@ -12,7 +12,7 @@ class Indicacao
 
     public function __construct(Aluno $indicante, Aluno $indicado)
     {
-        $this->indicado = $indicante;
+        $this->indicante = $indicante;
         $this->indicado = $indicado;
 
         $this->data = new \DateTimeImmutable();

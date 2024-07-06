@@ -4,6 +4,7 @@ namespace Arquitetura\Dominio\Aluno;
 
 use Arquitetura\Dominio\Cpf;
 use Arquitetura\Dominio\Email;
+use Arquitetura\Dominio\Telefone;
 
 class Aluno
 {
