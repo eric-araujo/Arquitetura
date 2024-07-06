@@ -2,7 +2,7 @@
 
 namespace Tests;
 
-use Arquitetura\Dominio\Aluno\Telefone;
+use Arquitetura\Dominio\Telefone;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
 
