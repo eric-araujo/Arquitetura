@@ -15,7 +15,7 @@ class Telefone implements \Stringable
 
     private function setDDD(string $ddd): void
     {
-        if (preg_match('/\d{8,9}/', $ddd) !== 1) {
+        if (preg_match('/\d{2}/', $ddd) !== 1) {
             throw new \InvalidArgumentException('DDD de telefone inválido');
         }
 
