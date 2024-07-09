@@ -13,6 +13,11 @@ class Telefone implements \Stringable
         $this->setNumero($numero);
     }
 
+    public function ddd(): string
+    {
+        return $this->ddd;
+    }
+
     private function setDDD(string $ddd): void
     {
         if (preg_match('/\d{2}/', $ddd) !== 1) {
@@ -20,6 +25,11 @@ class Telefone implements \Stringable
         }
 
         $this->ddd = $ddd;
+    }
+
+    public function numero(): string
+    {
+        return $this->numero;
     }
 
     private function setNumero(string $numero): void
