@@ -1,6 +1,6 @@
 <?php
 
-namespace Arquitetura\Infra\Aluno;
+namespace Arquitetura\Infra\Aluno\Exception;
 
 class MaisDeUmAlunoComMesmoCpfException extends \DomainException
 {
