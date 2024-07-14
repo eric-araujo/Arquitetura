@@ -5,7 +5,7 @@ use Arquitetura\Dominio\Cpf;
 use Arquitetura\Infra\Aluno\RepositorioDeAlunoPDO;
 use Arquitetura\Infra\Conexao\ConexaoPDO;
 
-require_once 'vendor/autoload.php';
+require_once './../vendor/autoload.php';
 
 $conexao = ConexaoPDO::criar();
 

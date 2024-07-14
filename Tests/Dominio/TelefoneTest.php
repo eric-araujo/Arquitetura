@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests;
+namespace Tests\Dominio;
 
 use Arquitetura\Dominio\Telefone;
 use PHPUnit\Framework\Attributes\DataProvider;

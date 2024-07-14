@@ -11,7 +11,7 @@ class Aluno
     private string $nome;
     private Cpf $cpf;
     private Email $email;
-    private array $telefones;
+    private array $telefones = [];
 
     public static function comCpfNomeEEmail(string $cpf, string $nome, string $email): self
     {

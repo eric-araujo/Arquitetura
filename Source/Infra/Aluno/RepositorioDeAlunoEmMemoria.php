@@ -32,7 +32,7 @@ class RepositorioDeAlunoEmMemoria implements RepositorioDeAluno
             throw new AlunoNaoEncontradoException($cpf);
         }
 
-        if ($totalDeAlunos > 0) {
+        if ($totalDeAlunos > 1) {
             throw new MaisDeUmAlunoComMesmoCpfException($cpf);
         }
 
